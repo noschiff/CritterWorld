@@ -29,7 +29,7 @@ In our application, we represent critters as colored circles with an arrow indic
 In action, a simulation of the critter world running continuously looks like this:
 
 <p align="center">
-<img width="750" alt = "GUI in action"src="https://user-images.githubusercontent.com/40209975/146692687-536df529-c7bb-46c3-a8b4-93eef1dd1b8b.gif">
+<img width="750" alt = "GUI in action" src="https://user-images.githubusercontent.com/40209975/146692687-536df529-c7bb-46c3-a8b4-93eef1dd1b8b.gif">
 </p>
 
 ### Simulation
