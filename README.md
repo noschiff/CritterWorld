@@ -37,6 +37,12 @@ The application runs on a main thread—the **JavaFX Application Thread**. All u
 
 We solved these issues with a careful design, using **multithreading** and **synchronization** techniques. First, we split up the drawing and simulation onto different threads; all simulation work was done on background threads. We used JavaFX's **concurrent** package to manage the additional threads, ensuring only one turn was simulated at a time. Second, the view was rendered from a read-only clone of the world so the simulation could be independent of the rendering. Finally, we encountered issues in which sometimes an excess of user inputs, such as dragging the screen or resizing the application, could still cause the rendering to fall behind. We solved this by keeping our view up to date with the simulation rather than drawing every frame. This allowed us to avoid interfering with the simulation and thus reach much higher speeds, which kept the GUI stayed clean and smooth.
 
+### Additional Features
+We included a sidebar on the right to give more information about a selected critter.  The sidebar provides a glimpse into the critter's brain and memory to to aid with writing and testing critter programs.
+<p align = "center">
+<img width="750" alt="Active Critter Animated with Sidebar" src="https://user-images.githubusercontent.com/47431797/151075288-6dfabf1d-da06-49a2-892c-7548e15c3df0.gif">
+</p>
+
 ### ASCII Art vs GUI
 Due to the nature of the project assignment, we had to create our world simulation before the GUI. It would be nearly impossible to debug the simulation without some form of visual representation, so for that reason, we also created a basic ASCII art representation of the world that was displayed in the console. Because we implemented our code with a MVC (model-view-controller) design pattern in mind, doing this was very easy. Below is a side-by-side comparison of the same critter world, the left being the ASCII art version and the right being our final GUI representation.
 
