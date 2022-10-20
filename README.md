@@ -59,7 +59,7 @@ Another aspect of the project was to write programs for specific critter behavio
 One such program we wrote was for a critter that moved in a growing hexagon spiral. Theoretically, in an infinite rock-less world, this critter would eventually reach every possible spot. Below is a demonstration of our critter in action.
 
 <p align = "center">
-  <img width = "750" alt = "Spiral Demo" src =https://user-images.githubusercontent.com/40209975/146841174-fcfbad6c-b772-41f5-a00b-41b4e01c1d32.gif>
+  <img width = "750" alt = "Spiral Demo" src="https://user-images.githubusercontent.com/40209975/146841174-fcfbad6c-b772-41f5-a00b-41b4e01c1d32.gif">
 </p>
 
 Here is another critter, named "Ruthless Ricky", that wanders around the world and attacks other critters of different species. Below is its program followed by a demo of it in a small world with other critters (Ricky is the purple critter).
